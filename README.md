@@ -20,7 +20,7 @@ glob # A module for pathname pattern matching
 tkinter # A standard Python interface to the Tk GUI toolkit (should be present by default)
 ```
 After installing the above,Download the models from the link available in the next section.
-To use the GUI simply run the following command in the teminal or explore the code yourself.
+To use the GUI simply run the following command in the teminal.
 ```
 python3 UI_zoom.py
 ```
@@ -29,6 +29,9 @@ or
 python3 UI_WithLoad.py
 ```
 *Note the above commands mioght not run in windows. In that case replace ```python3``` by ```python``` also if ```pip``` doesn't work try ```pip3```
+
+To try training the Models yourself you can use the cyclonev1-0.ipynb file.
+All you need to do is uncomment import statement for the required model and set the base_model as it.
 
 # Trained Models
 All the trained models are available at https://drive.google.com/drive/folders/1_SyshvdaHpnMJFS67Nxkr3w2Xib48tFk?usp=sharing
