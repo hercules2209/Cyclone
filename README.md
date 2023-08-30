@@ -40,14 +40,15 @@ All the trained models are available at https://drive.google.com/drive/folders/1
 There are two UI files:
 
 ## UI Load
-The other Ui contains a separate load button for laoding the model so that you can run more rpedictions before running out of memory.
+This UI contains a separate load button for loading the model which makes it so that each time you load an image you don't reload the image everytime you use upload an image
+so you can run more predictions before running out of memory.
 
 ![image](https://github.com/hercules2209/Cyclone/assets/106009563/9e7ebac6-1b5d-4e20-83c7-2afc576b1d77)
 
 ![image](https://github.com/hercules2209/Cyclone/assets/106009563/441a7a0c-aa6a-4de4-9eee-0523e9d03662)
 
 ## UI Zoom
-one of them has tries to zoom onto the cyclone eye It is not perfect but works well enough.
+In this we try to zoom on the cyclone eye by simply cropping the image around it and then resizing it. It is not perfect but works well enough.
 
 ![image](https://github.com/hercules2209/Cyclone/assets/106009563/47a33299-f17e-40e5-90c2-e8cb72997c78)
 ![image](https://github.com/hercules2209/Cyclone/assets/106009563/0a4df3e9-a2e8-438f-8677-39d0ba33cbee)
