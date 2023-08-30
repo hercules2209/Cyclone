@@ -1,12 +1,9 @@
 # Cyclone eye Detection
 
-This repository contains code for model trained on infrared satellite images (taken from https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021, and a few other sources), that predicts the x-y pixel location of the cyclone eye in an image.
-This project included training VGG19, DenseNEt, Xception Resnet to predict a point on a image and creating a simple GUI to make it more accesible for now technically oriented users to easily compare their output themselves.
-On average the most accurate of all these turned out VGG19 closely followed by  Xceptionwhere as DenseNet was usually off by a magnitude of 10 and Resnet was highly inaccurate.
+This repository contains code for a model that predicts the x-y pixel location of the cyclone eye in an infrared satellite image. The model is trained on infrared satellite images (taken from https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021, Korean Metereological Administration  and a few other sources). This project includes training VGG19, DenseNet, Xception and ResNet to predict a point on an image and creating a simple GUI to make it more accessible for non-technically oriented users to easily compare their output themselves. On average, the most accurate of all these turned out to be VGG19 with an averager error of 0.02, closely followed by Xception, whereas DenseNet was usually off by a magnitude of 10 pixels and ResNet was highly inaccurate.
 
 # How to Use
-To use the code ensure you have Python 3.7 or higher and clone the above repo.
-Then simply install the requirements by running 
+To use the code, ensure you have Python 3.7 or higher and clone this repo. Then simply install the requirements by running
 ``` pip install -r requirements.txt``` 
 or you can install the following yourself
 ```
@@ -19,8 +16,7 @@ seaborn # A library for statistical data visualization
 glob # A module for pathname pattern matching
 tkinter # A standard Python interface to the Tk GUI toolkit (should be present by default)
 ```
-After installing the above,Download the models from the link available in the next section.
-To use the GUI simply run the following command in the teminal.
+After installing the above, download the models from the link available in the next section. To use the GUI, simply run the following command in the terminal.
 ```
 python3 UI_zoom.py
 ```
@@ -28,7 +24,8 @@ or
 ```
 python3 UI_WithLoad.py
 ```
-*Note the above commands mioght not run in windows. In that case replace ```python3``` by ```python``` also if ```pip``` doesn't work try ```pip3```
+*Note the above commands mioght not run in windows. In that case replace ```python3``` by ```python``` .
+Also if ```pip``` doesn't work try ```pip3```.
 
 To try training the Models yourself you can use the cyclonev1-0.ipynb file.
 All you need to do is uncomment import statement for the required model and set the base_model as it.
