@@ -1,0 +1,7 @@
+tensorflow>=2.10 
+numpy 
+Pillow 
+pandas 
+matplotlib 
+seaborn 
+glob 
