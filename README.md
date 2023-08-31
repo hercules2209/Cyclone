@@ -11,7 +11,7 @@ To use the code, ensure you have Python 3.7 or higher and clone this repo. Then 
 ``` pip install -r requirements.txt``` 
 or you can install the following yourself
 ```
-tensorflow>=2.10 # A machine learning framework
+tensorflow==2.10 # A machine learning framework
 numpy # A library for scientific computing
 Pillow # A library for image processing
 pandas # A library for data analysis
