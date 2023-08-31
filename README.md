@@ -1,6 +1,5 @@
 # Cyclone tracking
-The next proposed step in this project  to track the cyclone movement over time but as there aren't many datasets available for this purpose we cannot continue further and have put this project on hold.
-
+The next step in this project  to track the using an 3d Convolutional LSTM model to generate predict cyclone movement over time but as there aren't many datasets available for this purpose we cannot continue further and have put this project on hold.
 
 ## Cyclone eye Detection
 
