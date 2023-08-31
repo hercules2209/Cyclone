@@ -1,7 +1,7 @@
 # Cyclone tracking
 The next step in this project  to track the using an 3d Convolutional LSTM model to generate predict cyclone movement over time but as there aren't many datasets available for this purpose we cannot continue further and have put this project on hold.
 
-## 1.Cyclone eye Detection
+## 1. Cyclone eye Detection
 
 This repository contains code for a model that predicts the x-y pixel location of the cyclone eye in an infrared satellite image. The model is trained on infrared satellite images (taken from https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021, Korean Metereological Administration  and a few other sources). This project includes training VGG19, DenseNet, Xception and ResNet to predict a point on an image and creating a simple GUI to make it more accessible for non-technically oriented users to easily compare their output themselves. On average, the most accurate of all these turned out to be VGG19 with an averager error of 0.02, closely followed by Xception, whereas DenseNet was usually off by a magnitude of 10 pixels and ResNet was highly inaccurate.
 
