@@ -30,9 +30,6 @@ Also if ```pip``` doesn't work try ```pip3```.
 To try training the Models yourself you can use the cyclonev1-0.ipynb file.
 All you need to do is uncomment import statement for the required model and set the base_model as it.
 
-## Trained Models
-All the trained models are available at https://drive.google.com/drive/folders/1_SyshvdaHpnMJFS67Nxkr3w2Xib48tFk?usp=sharing
-
 ## GUI
 There are two UI files:
 
